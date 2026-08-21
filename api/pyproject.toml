@@ -1,0 +1,21 @@
+[project]
+name = "MTGOdds"
+version = "0.0.1"
+dependencies = [
+  "pydantic",
+  "httpx",
+  "scipy",
+  "polars",
+]
+requires-python = ">=3.13,<3.14"
+authors = [
+  {name = "Lucas Pauzies", email = "lucas.pauzies@hotmail.fr"}
+]
+maintainers = [
+  {name = "Lucas Pauzies", email = "lucas.pauzies@hotmail.fr"}
+]
+description = "An API that compute mtg odds following your decklist"
+keywords = ["mtg", "odds", "modern", "pioneer", "dc", "duelcommander"]
+classifiers = [
+  "Programming Language :: Python"
+]
